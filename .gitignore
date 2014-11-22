@@ -1,0 +1,12 @@
+.DS_Store
+access_db.php
+.buildpath
+.metadata
+.project
+.settings/
+attachment
+cache
+error_log
+hits.txt
+figure
+figure_pdf
