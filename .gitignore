@@ -1,5 +1,8 @@
 .nbproject/
 .system/
 .user_guide/
-./.travis.yml
+.system/
+..travis.yml
+.user_guide/
+.application/cache/
 .system/
