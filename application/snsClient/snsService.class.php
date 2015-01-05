@@ -18,8 +18,8 @@ class SmsService {
 
     public function sendSmstoUser($mobileNumber,$message)
     {
-        $AmazonSNS = new AmazonSNS('AKIAJTFOY5XZKNFOIMAQ', 'STP7Araytk+/CFMZeFioyKIxlTVvnakSQMf1oMFI');
-        $AmazonSNS->setRegion('US-EAST-1');
+        $AmazonSNS = new AmazonSNS(Access key ID, wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY);
+        $AmazonSNS->setRegion(REGION TO BE SET);
         $topicArn = $AmazonSNS->createTopic('eHelpTestTopic');
         $result = $AmazonSNS->setTopicAttributes($topicArn, 'DisplayName', 'eHelp');
         try{
